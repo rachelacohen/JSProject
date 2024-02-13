@@ -1,0 +1,411 @@
+#bgs{
+background: url("images/start4.jpg");
+background-repeat: no-repeat;
+background-size: 100%;
+}
+#start{
+    width: 15vw;
+    height: 6vw;
+    position: absolute;
+    top: 2.1vw;
+    right:24vw;
+    opacity: 0;
+    
+}
+#start:hover{
+    opacity: 0.5;
+    background-color: pink;
+}
+#instruction{
+    width: 17vw;
+    height: 7vw;
+    /* background-color:  rgb(121, 89, 46); */
+    background-color: rgb(224, 85, 70);;
+    border: 1px solid white;
+    border-radius: 25%;
+    color: white;
+    font-size: 2vw;
+    top:2vw;
+    left: 5vw;
+    position: absolute;
+    
+}
+#sbody{
+    background: url("images/table2.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family:Gisha;
+}
+*{
+    font-family:Gisha;
+}
+#points{
+    width: 15vw;
+    height: 8vw;
+    font-size: 3.5vw;
+    display: flex;
+    position: fixed;
+    top :2vw;
+    right: 5vw;;
+    justify-content: center;
+    align-items: center;
+    background-color:antiquewhite;
+    border: 2px solid  rgb(121, 89, 46);
+    
+    border-radius: 30%;
+    color: rgb(121, 89, 46);
+    box-shadow: 0px 0px 15px currentcolor;
+    border: 5px solid currentcolor;
+
+   
+}
+.green{
+    background-color: green;
+}
+
+#table{
+    width: 98vw;
+    height: 16vw;
+    position: absolute;
+   top:34vw;
+    display: flex;
+    flex-wrap:wrap;
+    display: inline-flex;
+
+
+}
+
+#gui{
+    width: 130px;
+    height: 260px;
+   
+}
+
+#home{
+  
+    width: 10vw;
+    height: 4vw;
+    background-color:rgb(95, 65, 38)  ;
+
+    color: rgb(6, 249, 6);
+    border: 2px solid rgb(164, 165, 164) ;
+    box-shadow: 0px 0px 15px currentcolor;
+    border: 5px solid currentcolor;
+    padding: 15px;
+    font-size: 1vw;
+}
+
+.food_table{
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+.divimg{
+
+    width: 6vw;
+    height: 6vw;
+    margin-right: 0.55vw;
+    margin-left: 0.55vw;
+    background-color:antiquewhite;
+    border: 2px antiquewhite solid;
+    border-radius: 100%;
+   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+.divimg :hover{
+    opacity: 0.5;
+
+}
+#send{
+position: fixed;
+top:38.5vw;
+right: 1vw;
+width: 5vw;
+height: 2.5vw;
+font-size: 1vw;
+background-color:limegreen;
+
+}
+#remove{
+    position: fixed;
+    top:42.1vw;
+    right: 1vw;
+    width: 5vw;
+    height: 2.5vw; 
+    font-size: 1vw;
+    background-color:red;
+}
+.border{
+    border:2px green;
+}
+#game_over{
+position: fixed;
+opacity: 0.8;
+width: 80vw;
+height: 40vw;
+background-color:lightgoldenrodyellow;
+font-size: 10vw;
+border-radius: 20%;
+color: rgb(121, 89, 46);
+top:5vw;
+right: 10vw;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 1vw;
+display: none;
+z-index: 2;
+
+}
+#animation{
+     position: relative; 
+    animation-name: man;
+    animation-duration: 3s;
+    margin: 0px;
+   bottom: 0vw;
+    right: 30vw;
+  
+
+}
+@keyframes man{
+
+    0%   { right:0vw; bottom: 0vw;}
+    100% {right:30vw; bottom: 0vw;}
+  }
+#button_game_start{
+    position: fixed;
+    top:7vw;
+    background-color:rgb(121, 89, 46) ;
+    width: 10vw;
+    height: 4vw;
+    border-radius: 20%;
+    font-size: 1.3vw;
+    color:lightgoldenrodyellow ;
+}
+#small{
+    width: 22vw;
+    height: 17vw;
+   
+}
+#psmall{
+    width: 16vw;
+    height: 17vw;
+}
+#person{
+    position: absolute;
+    top:14.5vw;
+    width: 98vw;
+    height: 18vw;
+    display: flex;
+    justify-content: right;
+    align-items: flex-end; 
+}
+#timer{
+    /* position: fixed; */
+height: 9vw;
+position: absolute;
+width: 2.5vw;
+background-color: rgb(97, 75, 41);
+display: flex;
+justify-content: center;
+align-items: center;
+bottom: 8vw;
+left: 15vw;
+
+}
+#inner{
+width: 2vw;
+background-color: rgb(72, 223, 72);
+} 
+
+#zikukim{
+    background-image: url("images/zikuk.gif");
+    width: 100vw;
+    height: 100vh;
+    background-size: 100%;
+    color: aliceblue;
+    font-size: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    margin: 0px;
+}
+#ebody{
+    background-color: black;
+}
+#toform{
+    /* display: none; */
+    background-color:white ;
+    width: 20vw;
+    height: 22vw;
+    border-radius: 20%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    left:58vw;
+    top:0.2vw;
+    font-size: 2.5vw;
+    padding-top: 2vw;
+    z-index: 3;
+   border: solid black 0.15vw;
+}
+#enter{
+position: absolute;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 6vw;
+width: 10vw;
+top :20%;
+background-color: rgb(59, 90, 245);
+font-size: 1.5vw;
+animation-name: color2;
+animation-duration: 4s;
+/* animation-iteration-count: infinite; */
+}
+#reg{
+position: absolute;
+display: flex;
+top:50%;
+justify-content: center;
+align-items: center;
+height: 6vw;
+width: 10vw;
+background-color: rgb(224, 85, 70);
+font-size: 1.5vw;
+}
+#name{
+    width: 15vw;
+    height: 4vw;
+    border:black solid 2px;
+    top:20%;
+    right: 10%;
+    position: absolute;
+    font-size: 1vw;
+    direction: rtl;
+}
+#family{
+    width: 15vw;
+    height: 4vw;
+    border:black solid 2px;
+    top:42%;
+    right: 10%;
+    position: absolute;
+    font-size: 1vw;
+    direction: rtl;
+}
+#email{
+    width: 15vw;
+    height: 4vw;
+    border:black solid 2px;
+    top:65%;
+    right: 10%;
+    position: absolute;
+    font-size: 1vw;
+    direction: rtl;
+
+}
+#submit2, #submit1{
+    position: absolute;
+    top:85%;
+    right: 22%;
+    width: 10vw;
+    height: 3vw;
+    background-color: rgb(25, 55, 206);
+    font-size: 1vw;
+    color: aliceblue;
+}
+
+#fname{
+    width: 15vw;
+    height: 4vw;
+    border:black solid 2px;
+    top:55%;
+    right: 10%;
+    position: absolute;
+    font-size: 1vw;
+    direction: rtl;
+}
+#namee{
+    width: 15vw;
+    height: 4vw;
+    border:black solid 2px;
+    top:35%;
+    right: 10%;
+    position: absolute;
+    font-size: 1vw;
+    direction: rtl;
+}
+#inst{
+    height: 40vw;
+    width: 40vw;
+    background-color: antiquewhite;
+position: absolute;
+top:1vw;
+right: 20vw;
+justify-content: center;
+z-index: 3;
+}
+#inst pre{
+    font-size: 2vw;
+    direction: rtl;
+}
+#close{
+    width: 3.5vw;
+    height: 2.5vw;
+    background-color: red;
+    position: absolute;
+   right: 0px;
+   z-index: 2;
+}
+#up_level2{
+    align-items: center;
+    right: 0vw;
+    height: 33vw;
+    width: 99vw;
+    background-color:rgb(0, 255, 60);
+    position: absolute;
+    top:15vw;
+    justify-content: center;
+    z-index: 2;
+    display: none;
+    font-size: 6vw;
+}
+#down{
+height:4vw;
+width: 8vw;
+position: absolute;
+right: 45vw;
+background-color: rgb(255, 251, 0);
+font-size: 1.5vw;
+top: 25vw;
+}
+#record{
+    width: 17vw;
+    height: 7vw; 
+    background-color: rgb(224, 85, 70);;
+    border: 1px solid white;
+    border-radius: 25%;
+    color: white;
+    font-size: 2vw;
+    top:10vw;
+    left: 5vw;
+    position: fixed;
+    display: none;
+}
+#my_record{
+    height: 15vw;
+    width: 10vw;
+    background-color: aliceblue;
+    position:absolute;
+    top: 17vw;
+    left:6vw;
+    display: none;
+flex-direction: row;
+padding-top: 3vw;
+padding-right: 3vw;
+direction: rtl;
+}
+
